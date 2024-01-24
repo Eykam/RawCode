@@ -1,0 +1,12 @@
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#03 I: Start test public:2:define1.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#03 I: Test public:2:define1 is successful.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#03 I: End test public:2:define1.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#03 I: Start test public:8:ifelse.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#03 I: Test public:8:ifelse is successful.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#03 I: End test public:8:ifelse.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#03 I: Start test public:12:nested_if.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#03 I: Test public:12:nested_if is successful.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#03 I: End test public:12:nested_if.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#03 I: Start test public:19:test4.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#03 I: Test public:19:test4 is successful.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#03 I: End test public:19:test4.

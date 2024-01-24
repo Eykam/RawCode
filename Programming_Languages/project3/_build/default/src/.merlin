@@ -1,0 +1,7 @@
+B /home/ekamil/.opam/4.07.0/lib/ocaml
+B /home/ekamil/cmsc330spring20/project3/dep/sets
+B ../_build/default/src/.p3.objs
+S /home/ekamil/.opam/4.07.0/lib/ocaml
+S /home/ekamil/cmsc330spring20/project3/dep/sets
+S .
+FLG -open P3 -w -40

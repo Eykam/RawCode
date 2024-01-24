@@ -1,0 +1,7 @@
+B /home/ekamil/.opam/4.07.0/lib/ocaml
+B ../_build/default/bin/.interface.eobjs
+B ../_build/default/src/.p4a.objs
+S /home/ekamil/.opam/4.07.0/lib/ocaml
+S .
+S ../src
+FLG -w -40

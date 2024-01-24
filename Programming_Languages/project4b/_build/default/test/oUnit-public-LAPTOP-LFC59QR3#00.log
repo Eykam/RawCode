@@ -1,0 +1,616 @@
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Runner: processes
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Chooser: simple
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Configuration suite_name = "public"
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Configuration cache_filename = "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-$(suite_name).cache"
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Configuration display = "true"
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Configuration results_style_1_X = "false"
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Configuration verbose = "false"
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Configuration health_check_interval = "1."
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Configuration testdata_dir = "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/data"
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Configuration chooser = "simple"
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Configuration output_html_dir = "none"
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Configuration processes_kill_period = "5."
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Configuration runner = "processes"
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Configuration shards = "6"
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Configuration processes_grace_period = "5."
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Configuration log_encoding = "utf-8"
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Configuration output_junit_file = "none"
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Configuration output_file = "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-$(suite_name)-$(shard_id).log"
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Using 6 workers maximum.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Starting worker number LAPTOP-LFC59QR3#01.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#01 started.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Starting worker number LAPTOP-LFC59QR3#02.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#02 started.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Starting worker number LAPTOP-LFC59QR3#03.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#03 started.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Starting worker number LAPTOP-LFC59QR3#04.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#04 started.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Starting worker number LAPTOP-LFC59QR3#05.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#05 started.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Starting worker number LAPTOP-LFC59QR3#06.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#06 started.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:5:define_1, public:4:stmt_control, public:3:stmt_basic, public:2:expr_fail, public:1:expr_ops, public:0:expr_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 I: Start test public:0:expr_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 I: Start test public:1:expr_ops.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 I: Start test public:2:expr_fail.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 I: Start test public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 I: Start test public:4:stmt_control.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:5:define_1, public:4:stmt_control, public:3:stmt_basic, public:2:expr_fail, public:1:expr_ops, public:0:expr_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 I: Test public:0:expr_basic is successful.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 I: Test public:1:expr_ops is successful.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:5:define_1, public:4:stmt_control, public:3:stmt_basic, public:2:expr_fail, public:1:expr_ops, public:0:expr_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 I: End test public:0:expr_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 I: End test public:1:expr_ops.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:5:define_1, public:4:stmt_control, public:3:stmt_basic, public:2:expr_fail, public:1:expr_ops, public:0:expr_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:7:assign_1, public:6:define_2, public:5:define_1, public:4:stmt_control, public:3:stmt_basic, public:2:expr_fail.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 I: Start test public:5:define_1.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 I: Start test public:6:define_2.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:7:assign_1, public:6:define_2, public:5:define_1, public:4:stmt_control, public:3:stmt_basic, public:2:expr_fail.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 I: Start test public:7:assign_1.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:7:assign_1, public:6:define_2, public:5:define_1, public:4:stmt_control, public:3:stmt_basic, public:2:expr_fail.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 I: Test public:7:assign_1 is successful.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:7:assign_1, public:6:define_2, public:5:define_1, public:4:stmt_control, public:3:stmt_basic, public:2:expr_fail.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 I: Test public:5:define_1 is successful.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 I: End test public:7:assign_1.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:7:assign_1, public:6:define_2, public:5:define_1, public:4:stmt_control, public:3:stmt_basic, public:2:expr_fail.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 I: End test public:5:define_1.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:8:assign_2, public:6:define_2, public:5:define_1, public:4:stmt_control, public:3:stmt_basic, public:2:expr_fail.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:9:assign_exp, public:8:assign_2, public:6:define_2, public:4:stmt_control, public:3:stmt_basic, public:2:expr_fail.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 I: Test public:6:define_2 is successful.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:9:assign_exp, public:8:assign_2, public:6:define_2, public:4:stmt_control, public:3:stmt_basic, public:2:expr_fail.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 I: End test public:6:define_2.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 I: Start test public:8:assign_2.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 I: Start test public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:9:assign_exp, public:8:assign_2, public:6:define_2, public:4:stmt_control, public:3:stmt_basic, public:2:expr_fail.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:10:notequal, public:9:assign_exp, public:8:assign_2, public:4:stmt_control, public:3:stmt_basic, public:2:expr_fail.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 I: Start test public:10:notequal.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:10:notequal, public:9:assign_exp, public:8:assign_2, public:4:stmt_control, public:3:stmt_basic, public:2:expr_fail.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Test public:2:expr_fail has failed.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Got P4b.Eval.DeclareError("No Var"), expected TypeError in test public:2:expr_fail.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Raised at file "src/oUnitAssert.ml", line 45, characters 8-27
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "test/public.ml", line 54, characters 2-39
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:10:notequal, public:9:assign_exp, public:8:assign_2, public:4:stmt_control, public:3:stmt_basic, public:2:expr_fail.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 I: End test public:2:expr_fail.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:10:notequal, public:9:assign_exp, public:8:assign_2, public:4:stmt_control, public:3:stmt_basic, public:2:expr_fail.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:11:equal, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:4:stmt_control, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 I: Start test public:11:equal.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:11:equal, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:4:stmt_control, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Test public:11:equal exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:11:equal.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:11:equal, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:4:stmt_control, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 I: End test public:11:equal.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:11:equal, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:4:stmt_control, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Test public:4:stmt_control exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:4:stmt_control.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "test/public.ml", line 94, characters 2-134
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:12:less, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:4:stmt_control, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 I: End test public:4:stmt_control.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 I: Start test public:12:less.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:12:less, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:4:stmt_control, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:13:exp_1, public:12:less, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Test public:12:less exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:12:less.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 I: Start test public:13:exp_1.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:13:exp_1, public:12:less, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 I: End test public:12:less.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:13:exp_1, public:12:less, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Test public:13:exp_1 exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:13:exp_1.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:14:exp_2, public:13:exp_1, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 I: End test public:13:exp_1.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 I: Start test public:14:exp_2.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:14:exp_2, public:13:exp_1, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:15:exp_3, public:14:exp_2, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 I: Start test public:15:exp_3.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:15:exp_3, public:14:exp_2, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Test public:14:exp_2 exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:14:exp_2.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:15:exp_3, public:14:exp_2, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 I: End test public:14:exp_2.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:15:exp_3, public:14:exp_2, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:16:ifelse, public:15:exp_3, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Test public:15:exp_3 exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:15:exp_3.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 I: Start test public:16:ifelse.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:16:ifelse, public:15:exp_3, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 I: End test public:15:exp_3.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:16:ifelse, public:15:exp_3, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Test public:16:ifelse exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:16:ifelse.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:17:if_else_while, public:16:ifelse, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 I: End test public:16:ifelse.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 I: Start test public:17:if_else_while.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:17:if_else_while, public:16:ifelse, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:18:while, public:17:if_else_while, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 I: Start test public:18:while.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:18:while, public:17:if_else_while, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Test public:3:stmt_basic exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "test/public.ml", line 87, characters 2-94
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:18:while, public:17:if_else_while, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 I: End test public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Test public:18:while exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:18:while.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 200, characters 18-34
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:18:while, public:17:if_else_while, public:10:notequal, public:9:assign_exp, public:8:assign_2, public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 E: Test public:8:assign_2 exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 E: P4b.Eval.DeclareError("No Var") in test public:8:assign_2.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 E: Raised at file "src/eval.ml", line 18, characters 18-41
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 E: Called from file "src/eval.ml", line 211, characters 26-41
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 I: End test public:18:while.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:19:for, public:18:while, public:17:if_else_while, public:10:notequal, public:9:assign_exp, public:8:assign_2.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 I: End test public:8:assign_2.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Test public:17:if_else_while exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:17:if_else_while.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 I: Start test public:19:for.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:20:nested_ifelse, public:19:for, public:17:if_else_while, public:10:notequal, public:9:assign_exp, public:8:assign_2.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 I: End test public:17:if_else_while.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 I: Start test public:20:nested_ifelse.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:21:nested_while, public:20:nested_ifelse, public:19:for, public:17:if_else_while, public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 I: Start test public:21:nested_while.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:22:main, public:21:nested_while, public:20:nested_ifelse, public:19:for, public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Test public:20:nested_ifelse exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:20:nested_ifelse.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 I: Start test public:22:main.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:22:main, public:21:nested_while, public:20:nested_ifelse, public:19:for, public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Test public:19:for exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: P4b.TokenTypes.InvalidInputException("Expected Tok_Int_Type from input [Tok_To, Tok_Int(50), Tok_RParen, Tok_LBrace, Tok_ID(\"a\"), Tok_Assign, Tok_ID(\"a\"), Tok_Add, Tok_Int(1), Tok_Semi, Tok_ID(\"b\"), Tok_Assign, Tok_ID(\"b\"), Tok_Add, Tok_Int(1), Tok_Semi, Tok_RBrace, Tok_RBrace, EOF], got Tok_To") in test public:19:for.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Raised at file "src/parser.ml", line 22, characters 18-209
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/parser.ml", line 158, characters 19-50
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/parser.ml", line 128, characters 23-38
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/parser.ml", line 112, characters 24-39
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/parser.ml", line 112, characters 24-39
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/parser.ml", line 189, characters 20-35
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "test/testUtils.ml", line 49, characters 14-29
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 I: End test public:20:nested_ifelse.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:22:main, public:21:nested_while, public:20:nested_ifelse, public:19:for, public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 I: End test public:19:for.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:23:test_1, public:22:main, public:21:nested_while, public:19:for, public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 I: Test public:22:main is successful.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 I: Start test public:23:test_1.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:24:test_2, public:23:test_1, public:22:main, public:21:nested_while, public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 I: Test public:21:nested_while is successful.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 I: End test public:22:main.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 I: Start test public:24:test_2.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:24:test_2, public:23:test_1, public:22:main, public:21:nested_while, public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 I: End test public:21:nested_while.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:25:test_3, public:24:test_2, public:23:test_1, public:21:nested_while, public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Test public:23:test_1 exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:23:test_1.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 200, characters 18-34
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:26:stmt_fail_basic, public:25:test_3, public:24:test_2, public:23:test_1, public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 I: End test public:23:test_1.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 I: Start test public:25:test_3.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 I: Start test public:26:stmt_fail_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:26:stmt_fail_basic, public:25:test_3, public:24:test_2, public:23:test_1, public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 E: Test public:26:stmt_fail_basic exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 E: P4b.TokenTypes.InvalidInputException("") in test public:26:stmt_fail_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 E: Raised at file "src/parser.ml", line 178, characters 15-42
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 E: Called from file "src/parser.ml", line 135, characters 24-39
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 E: Called from file "src/evalUtils.ml", line 37, characters 15-38
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 E: Called from file "test/testUtils.ml", line 73, characters 10-23
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 E: Called from file "test/public.ml", line 144, characters 2-76
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Still 6 tests running : public:27:stmt_fail_control, public:26:stmt_fail_basic, public:25:test_3, public:24:test_2, public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:27:stmt_fail_control, public:26:stmt_fail_basic, public:25:test_3, public:24:test_2, public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Test public:24:test_2 exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:24:test_2.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Test public:25:test_3 exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:25:test_3.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#01 I: End test public:26:stmt_fail_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 I: Start test public:27:stmt_fail_control.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Still 6 tests running : public:27:stmt_fail_control, public:26:stmt_fail_basic, public:25:test_3, public:24:test_2, public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:27:stmt_fail_control, public:26:stmt_fail_basic, public:25:test_3, public:24:test_2, public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 I: End test public:24:test_2.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#05 I: End test public:25:test_3.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Test public:27:stmt_fail_control exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: P4b.TokenTypes.InvalidInputException("") in test public:27:stmt_fail_control.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Raised at file "src/parser.ml", line 178, characters 15-42
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/parser.ml", line 149, characters 28-43
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/evalUtils.ml", line 37, characters 15-38
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "test/testUtils.ml", line 73, characters 10-23
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "test/public.ml", line 160, characters 2-59
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Still 5 tests running : public:27:stmt_fail_control, public:25:test_3, public:24:test_2, public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 5 tests running: public:27:stmt_fail_control, public:25:test_3, public:24:test_2, public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#03 I: End test public:27:stmt_fail_control.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Still 3 tests running : public:27:stmt_fail_control, public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 3 tests running: public:27:stmt_fail_control, public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Still 2 tests running : public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 2 tests running: public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 E: Test public:9:assign_exp exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Still 2 tests running : public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 2 tests running: public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 I: End test public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Still 2 tests running : public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 2 tests running: public:10:notequal, public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Still 1 tests running : public:10:notequal.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 1 tests running: public:10:notequal.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 E: Test public:10:notequal exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 E: P4b.TokenTypes.InvalidInputException("Expected Tok_RParen from input [Tok_NotEqual, Tok_Int(100), Tok_RParen, Tok_LBrace, Tok_ID(\"a\"), Tok_Assign, Tok_Int(200), Tok_Semi, Tok_RBrace, Tok_Else, Tok_LBrace, Tok_Print, Tok_LParen, Tok_ID(\"a\"), Tok_RParen, Tok_Semi, Tok_RBrace, Tok_RBrace, EOF], got Tok_NotEqual") in test public:10:notequal.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 E: Raised at file "src/parser.ml", line 22, characters 18-209
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 E: Called from file "src/parser.ml", line 140, characters 17-46
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 E: Called from file "src/parser.ml", line 128, characters 23-38
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 E: Called from file "src/parser.ml", line 112, characters 24-39
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 E: Called from file "src/parser.ml", line 189, characters 20-35
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 E: Called from file "test/testUtils.ml", line 49, characters 14-29
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Still 1 tests running : public:10:notequal.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 1 tests running: public:10:notequal.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 I: End test public:10:notequal.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Still 1 tests running : public:10:notequal.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 1 tests running: public:10:notequal.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: 0 tests running: .
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#01 has ended.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#04 has ended.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#05 has ended.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#03 has ended.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#06 has ended.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#02 has ended.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Used 6 worker during test execution.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Run 5 tests with shard LAPTOP-LFC59QR3#01.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Run 6 tests with shard LAPTOP-LFC59QR3#05.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Run 9 tests with shard LAPTOP-LFC59QR3#03.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Run 3 tests with shard LAPTOP-LFC59QR3#04.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Run 3 tests with shard LAPTOP-LFC59QR3#02.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Run 2 tests with shard LAPTOP-LFC59QR3#06.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: ==============
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Summary:
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:10:notequal exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: P4b.TokenTypes.InvalidInputException("Expected Tok_RParen from input [Tok_NotEqual, Tok_Int(100), Tok_RParen, Tok_LBrace, Tok_ID(\"a\"), Tok_Assign, Tok_Int(200), Tok_Semi, Tok_RBrace, Tok_Else, Tok_LBrace, Tok_Print, Tok_LParen, Tok_ID(\"a\"), Tok_RParen, Tok_Semi, Tok_RBrace, Tok_RBrace, EOF], got Tok_NotEqual") in test public:10:notequal.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/parser.ml", line 22, characters 18-209
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/parser.ml", line 140, characters 17-46
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/parser.ml", line 128, characters 23-38
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/parser.ml", line 112, characters 24-39
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/parser.ml", line 189, characters 20-35
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/testUtils.ml", line 49, characters 14-29
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:9:assign_exp exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:27:stmt_fail_control exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: P4b.TokenTypes.InvalidInputException("") in test public:27:stmt_fail_control.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/parser.ml", line 178, characters 15-42
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/parser.ml", line 149, characters 28-43
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/evalUtils.ml", line 37, characters 15-38
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/testUtils.ml", line 73, characters 10-23
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/public.ml", line 160, characters 2-59
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:25:test_3 exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:25:test_3.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:24:test_2 exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:24:test_2.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:26:stmt_fail_basic exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: P4b.TokenTypes.InvalidInputException("") in test public:26:stmt_fail_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/parser.ml", line 178, characters 15-42
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/parser.ml", line 135, characters 24-39
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/evalUtils.ml", line 37, characters 15-38
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/testUtils.ml", line 73, characters 10-23
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/public.ml", line 144, characters 2-76
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:23:test_1 exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:23:test_1.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 200, characters 18-34
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Test public:21:nested_while is successful.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Test public:22:main is successful.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:19:for exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: P4b.TokenTypes.InvalidInputException("Expected Tok_Int_Type from input [Tok_To, Tok_Int(50), Tok_RParen, Tok_LBrace, Tok_ID(\"a\"), Tok_Assign, Tok_ID(\"a\"), Tok_Add, Tok_Int(1), Tok_Semi, Tok_ID(\"b\"), Tok_Assign, Tok_ID(\"b\"), Tok_Add, Tok_Int(1), Tok_Semi, Tok_RBrace, Tok_RBrace, EOF], got Tok_To") in test public:19:for.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/parser.ml", line 22, characters 18-209
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/parser.ml", line 158, characters 19-50
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/parser.ml", line 128, characters 23-38
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/parser.ml", line 112, characters 24-39
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/parser.ml", line 112, characters 24-39
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/parser.ml", line 189, characters 20-35
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/testUtils.ml", line 49, characters 14-29
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:20:nested_ifelse exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:20:nested_ifelse.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:17:if_else_while exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:17:if_else_while.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:8:assign_2 exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: P4b.Eval.DeclareError("No Var") in test public:8:assign_2.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/eval.ml", line 18, characters 18-41
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 211, characters 26-41
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:18:while exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:18:while.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 200, characters 18-34
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:3:stmt_basic exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/public.ml", line 87, characters 2-94
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:16:ifelse exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:16:ifelse.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:15:exp_3 exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:15:exp_3.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:14:exp_2 exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:14:exp_2.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:13:exp_1 exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:13:exp_1.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:12:less exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:12:less.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:4:stmt_control exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:4:stmt_control.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/public.ml", line 94, characters 2-134
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:11:equal exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:11:equal.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Test public:2:expr_fail has failed.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Got P4b.Eval.DeclareError("No Var"), expected TypeError in test public:2:expr_fail.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/oUnitAssert.ml", line 45, characters 8-27
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/public.ml", line 54, characters 2-39
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Test public:6:define_2 is successful.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Test public:5:define_1 is successful.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Test public:7:assign_1 is successful.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Test public:1:expr_ops is successful.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Test public:0:expr_basic is successful.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Ran: 28 tests in: 0.19 seconds.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Cases: 28.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Tried: 28.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Errors: 20.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Failures: 1.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Skip: 0.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Todo: 0.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#00 I: Timeout: 0.

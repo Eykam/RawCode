@@ -1,0 +1,12 @@
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#02 I: Start test public:1:assign_exp.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#02 I: Test public:1:assign_exp is successful.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#02 I: End test public:1:assign_exp.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#02 I: Start test public:9:if_else_while.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#02 I: Test public:9:if_else_while is successful.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#02 I: End test public:9:if_else_while.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#02 I: Start test public:15:print.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#02 I: Test public:15:print is successful.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#02 I: End test public:15:print.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#02 I: Start test public:21:while.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#02 I: Test public:21:while is successful.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#02 I: End test public:21:while.

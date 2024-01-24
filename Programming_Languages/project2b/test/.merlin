@@ -1,0 +1,11 @@
+B /home/ekamil/.opam/4.07.0/lib/bytes
+B /home/ekamil/.opam/4.07.0/lib/oUnit
+B /home/ekamil/.opam/4.07.0/lib/ocaml
+B ../_build/default/src/.p2b.objs
+B ../_build/default/test/.public.eobjs
+S /home/ekamil/.opam/4.07.0/lib/bytes
+S /home/ekamil/.opam/4.07.0/lib/oUnit
+S /home/ekamil/.opam/4.07.0/lib/ocaml
+S ../src
+S .
+FLG -w -40

@@ -1,0 +1,6 @@
+2020-04-08T03:12:05+00:00 LAPTOP-LFC59QR3#03 I: Start test public:2:public_nfa_move.
+2020-04-08T03:12:05+00:00 LAPTOP-LFC59QR3#03 I: Test public:2:public_nfa_move is successful.
+2020-04-08T03:12:05+00:00 LAPTOP-LFC59QR3#03 I: End test public:2:public_nfa_move.
+2020-04-08T03:12:05+00:00 LAPTOP-LFC59QR3#03 I: Start test public:6:public_nfa_new_states.
+2020-04-08T03:12:05+00:00 LAPTOP-LFC59QR3#03 I: Test public:6:public_nfa_new_states is successful.
+2020-04-08T03:12:05+00:00 LAPTOP-LFC59QR3#03 I: End test public:6:public_nfa_new_states.

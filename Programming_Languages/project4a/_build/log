@@ -1,0 +1,46 @@
+# dune runtest -f
+# OCAMLPARAM: unset
+$ /usr/bin/nproc > /tmp/dune15dd66.output 2> /dev/null
+$ /home/ekamil/.opam/4.07.0/bin/ocamlc.opt -config > /tmp/dune294ebd.output
+$ (cd _build/default && /home/ekamil/.opam/4.07.0/bin/ocamldep.opt -modules -impl src/parser.ml) > _build/default/src/.p4a.objs/parser.ml.d
+$ (cd _build/default && /home/ekamil/.opam/4.07.0/bin/ocamlc.opt -w -40 -g -bin-annot -I src/.p4a.objs -I src/.p4a.objs/.private -intf-suffix .ml -no-alias-deps -open P4a -o src/.p4a.objs/p4a__Parser.cmo -c -impl src/parser.ml)
+> File "src/parser.ml", line 191, characters 6-10:
+> Warning 26: unused variable toks.
+$ (cd _build/default && /home/ekamil/.opam/4.07.0/bin/ocamlc.opt -w -40 -g -a -o src/p4a.cma src/.p4a.objs/p4a.cmo src/.p4a.objs/p4a__TokenTypes.cmo src/.p4a.objs/p4a__Lexer.cmo src/.p4a.objs/p4a__SmallCTypes.cmo src/.p4a.objs/p4a__Utils.cmo src/.p4a.objs/p4a__Parser.cmo)
+$ (cd _build/default && /home/ekamil/.opam/4.07.0/bin/ocamlc.opt -w -40 -g -o test/public.bc -I /home/ekamil/.opam/4.07.0/lib/bytes -I /home/ekamil/.opam/4.07.0/lib/oUnit -I src /home/ekamil/.opam/4.07.0/lib/ocaml/str.cma src/p4a.cma /home/ekamil/.opam/4.07.0/lib/ocaml/unix.cma /home/ekamil/.opam/4.07.0/lib/oUnit/oUnitAdvanced.cma /home/ekamil/.opam/4.07.0/lib/oUnit/oUnit.cma test/.student.eobjs/testUtils.cmo test/.student.eobjs/public.cmo)
+$ (cd _build/default && /home/ekamil/.opam/4.07.0/bin/ocamlc.opt -w -40 -g -o test/student.bc -I /home/ekamil/.opam/4.07.0/lib/bytes -I /home/ekamil/.opam/4.07.0/lib/oUnit -I src /home/ekamil/.opam/4.07.0/lib/ocaml/str.cma src/p4a.cma /home/ekamil/.opam/4.07.0/lib/ocaml/unix.cma /home/ekamil/.opam/4.07.0/lib/oUnit/oUnitAdvanced.cma /home/ekamil/.opam/4.07.0/lib/oUnit/oUnit.cma test/.student.eobjs/student.cmo)
+$ (cd _build/default/test && ./student.bc)
+> .
+> Ran: 1 tests in: 0.11 seconds.
+> OK
+$ (cd _build/default/test && ./public.bc)
+> .....................FE
+> ==============================================================================
+> Error: public:22:for.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4a/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#01.log", line 11, characters 1-1:
+> Error: public:22:for (in the log).
+>
+> Raised at file "src/parser.ml", line 22, characters 18-209
+> Called from file "src/parser.ml", line 158, characters 19-50
+> Called from file "src/parser.ml", line 112, characters 24-39
+> Called from file "src/parser.ml", line 189, characters 20-35
+> Called from file "test/testUtils.ml", line 33, characters 12-27
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> P4a.TokenTypes.InvalidInputException("Expected Tok_Int_Type from input [Tok_To, Tok_Int(10), Tok_RParen, Tok_LBrace, Tok_Print, Tok_LParen, Tok_ID(\"a\"), Tok_RParen, Tok_Semi, Tok_RBrace, Tok_RBrace, EOF], got Tok_To")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:17:test2.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4a/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#06.log", line 8, characters 1-1:
+> Error: public:17:test2 (in the log).
+>
+> Raised at file "src/oUnitAssert.ml", line 45, characters 8-27
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> not equal
+> ------------------------------------------------------------------------------
+> Ran: 23 tests in: 0.16 seconds.
+> FAILED: Cases: 23 Tried: 23 Errors: 1 Failures: 1 Skip:  0 Todo: 0 Timeouts: 0.
+[1]

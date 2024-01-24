@@ -1,0 +1,20 @@
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#01 I: Start test public:0:assign1.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#01 I: Test public:0:assign1 is successful.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#01 I: End test public:0:assign1.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#01 I: Start test public:10:less.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#01 I: Test public:10:less is successful.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#01 I: End test public:10:less.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#01 I: Start test public:14:nested_while.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#01 I: Test public:14:nested_while is successful.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#01 I: End test public:14:nested_while.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#01 I: Start test public:22:for.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#01 E: Test public:22:for exited with an error.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#01 E: P4a.TokenTypes.InvalidInputException("Expected Tok_Int_Type from input [Tok_To, Tok_Int(10), Tok_RParen, Tok_LBrace, Tok_Print, Tok_LParen, Tok_ID(\"a\"), Tok_RParen, Tok_Semi, Tok_RBrace, Tok_RBrace, EOF], got Tok_To") in test public:22:for.
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#01 E: Raised at file "src/parser.ml", line 22, characters 18-209
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#01 E: Called from file "src/parser.ml", line 158, characters 19-50
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#01 E: Called from file "src/parser.ml", line 112, characters 24-39
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#01 E: Called from file "src/parser.ml", line 189, characters 20-35
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#01 E: Called from file "test/testUtils.ml", line 33, characters 12-27
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#01 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#01 E: 
+2020-04-25T03:04:45+00:00 LAPTOP-LFC59QR3#01 I: End test public:22:for.

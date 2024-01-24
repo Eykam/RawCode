@@ -1,0 +1,14 @@
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 I: Start test public:5:define_1.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 I: Test public:5:define_1 is successful.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 I: End test public:5:define_1.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 I: Start test public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 E: Test public:9:assign_exp exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:9:assign_exp.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#06 I: End test public:9:assign_exp.

@@ -1,0 +1,38 @@
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 I: Start test public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Test public:3:stmt_basic exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "test/public.ml", line 87, characters 2-94
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 I: End test public:3:stmt_basic.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 I: Start test public:19:for.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Test public:19:for exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: P4b.TokenTypes.InvalidInputException("Expected Tok_Int_Type from input [Tok_To, Tok_Int(50), Tok_RParen, Tok_LBrace, Tok_ID(\"a\"), Tok_Assign, Tok_ID(\"a\"), Tok_Add, Tok_Int(1), Tok_Semi, Tok_ID(\"b\"), Tok_Assign, Tok_ID(\"b\"), Tok_Add, Tok_Int(1), Tok_Semi, Tok_RBrace, Tok_RBrace, EOF], got Tok_To") in test public:19:for.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Raised at file "src/parser.ml", line 22, characters 18-209
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/parser.ml", line 158, characters 19-50
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/parser.ml", line 128, characters 23-38
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/parser.ml", line 112, characters 24-39
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/parser.ml", line 112, characters 24-39
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/parser.ml", line 189, characters 20-35
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "test/testUtils.ml", line 49, characters 14-29
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 I: End test public:19:for.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 I: Start test public:24:test_2.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Test public:24:test_2 exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: File "src/eval.ml", line 187, characters 2-7: Pattern matching failed in test public:24:test_2.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Raised at file "src/eval.ml", line 188, characters 12-15
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/eval.ml", line 190, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/eval.ml", line 191, characters 14-30
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "test/testUtils.ml", line 30, characters 34-53
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#04 I: End test public:24:test_2.

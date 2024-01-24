@@ -1,0 +1,356 @@
+# dune runtest
+# OCAMLPARAM: unset
+$ /usr/bin/nproc > /tmp/dune68c961.output 2> /dev/null
+$ /home/ekamil/.opam/4.07.0/bin/ocamlc.opt -config > /tmp/dune34b703.output
+$ (cd _build/default && /home/ekamil/.opam/4.07.0/bin/ocamldep.opt -modules -impl src/eval.ml) > _build/default/src/.p4b.objs/eval.ml.d
+$ (cd _build/default && /home/ekamil/.opam/4.07.0/bin/ocamlc.opt -w -40 -g -bin-annot -I src/.p4b.objs -I src/.p4b.objs/.private -intf-suffix .ml -no-alias-deps -open P4b -o src/.p4b.objs/p4b__Eval.cmo -c -impl src/eval.ml)
+> File "src/eval.ml", line 187, characters 2-972:
+> Warning 8: this pattern-matching is not exhaustive.
+> Here is an example of a case that is not matched:
+> (If (_, _, _)|For (_, _, _, _)|Print _)
+$ (cd _build/default && /home/ekamil/.opam/4.07.0/bin/ocamlc.opt -w -40 -g -a -o src/p4b.cma src/.p4b.objs/p4b.cmo src/.p4b.objs/p4b__TokenTypes.cmo src/.p4b.objs/p4b__Lexer.cmo src/.p4b.objs/p4b__SmallCTypes.cmo src/.p4b.objs/p4b__Utils.cmo src/.p4b.objs/p4b__Parser.cmo src/.p4b.objs/p4b__EvalUtils.cmo src/.p4b.objs/p4b__Eval.cmo)
+$ (cd _build/default && /home/ekamil/.opam/4.07.0/bin/ocamlc.opt -w -40 -g -o test/public.bc -I /home/ekamil/.opam/4.07.0/lib/bytes -I /home/ekamil/.opam/4.07.0/lib/oUnit -I src /home/ekamil/.opam/4.07.0/lib/ocaml/str.cma src/p4b.cma /home/ekamil/.opam/4.07.0/lib/ocaml/unix.cma /home/ekamil/.opam/4.07.0/lib/oUnit/oUnitAdvanced.cma /home/ekamil/.opam/4.07.0/lib/oUnit/oUnit.cma test/.student.eobjs/testUtils.cmo test/.student.eobjs/public.cmo)
+$ (cd _build/default && /home/ekamil/.opam/4.07.0/bin/ocamlc.opt -w -40 -g -o test/student.bc -I /home/ekamil/.opam/4.07.0/lib/bytes -I /home/ekamil/.opam/4.07.0/lib/oUnit -I src /home/ekamil/.opam/4.07.0/lib/ocaml/str.cma src/p4b.cma /home/ekamil/.opam/4.07.0/lib/ocaml/unix.cma /home/ekamil/.opam/4.07.0/lib/oUnit/oUnitAdvanced.cma /home/ekamil/.opam/4.07.0/lib/oUnit/oUnit.cma test/.student.eobjs/testUtils.cmo test/.student.eobjs/student.cmo)
+$ (cd _build/default/test && ./student.bc)
+> .
+> Ran: 1 tests in: 0.11 seconds.
+> OK
+$ (cd _build/default/test && ./public.bc)
+> .....FEEEEEEEEEEEEE..EEEEEEE
+> ==============================================================================
+> Error: public:10:notequal.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#02.log", line 8, characters 1-1:
+> Error: public:10:notequal (in the log).
+>
+> Raised at file "src/parser.ml", line 22, characters 18-209
+> Called from file "src/parser.ml", line 140, characters 17-46
+> Called from file "src/parser.ml", line 128, characters 23-38
+> Called from file "src/parser.ml", line 112, characters 24-39
+> Called from file "src/parser.ml", line 189, characters 20-35
+> Called from file "test/testUtils.ml", line 49, characters 14-29
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Expected Tok_RParen from input [Tok_NotEqual, Tok_Int(100), Tok_RParen, Tok_LBrace, Tok_ID(\"a\"), Tok_Assign, Tok_Int(200), Tok_Semi, Tok_RBrace, Tok_Else, Tok_LBrace, Tok_Print, Tok_LParen, Tok_ID(\"a\"), Tok_RParen, Tok_Semi, Tok_RBrace, Tok_RBrace, EOF], got Tok_NotEqual")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:9:assign_exp.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#06.log", line 5, characters 1-1:
+> Error: public:9:assign_exp (in the log).
+>
+> Raised at file "src/eval.ml", line 188, characters 12-15
+> Called from file "src/eval.ml", line 190, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "test/testUtils.ml", line 30, characters 34-53
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> File "src/eval.ml", line 187, characters 2-7: Pattern matching failed
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:27:stmt_fail_control.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#03.log", line 99, characters 1-1:
+> Error: public:27:stmt_fail_control (in the log).
+>
+> Raised at file "src/parser.ml", line 178, characters 15-42
+> Called from file "src/parser.ml", line 149, characters 28-43
+> Called from file "src/evalUtils.ml", line 37, characters 15-38
+> Called from file "test/testUtils.ml", line 73, characters 10-23
+> Called from file "test/public.ml", line 160, characters 2-59
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:25:test_3.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#05.log", line 50, characters 1-1:
+> Error: public:25:test_3 (in the log).
+>
+> Raised at file "src/eval.ml", line 188, characters 12-15
+> Called from file "src/eval.ml", line 190, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "test/testUtils.ml", line 30, characters 34-53
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> File "src/eval.ml", line 187, characters 2-7: Pattern matching failed
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:24:test_2.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#04.log", line 26, characters 1-1:
+> Error: public:24:test_2 (in the log).
+>
+> Raised at file "src/eval.ml", line 188, characters 12-15
+> Called from file "src/eval.ml", line 190, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "test/testUtils.ml", line 30, characters 34-53
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> File "src/eval.ml", line 187, characters 2-7: Pattern matching failed
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:26:stmt_fail_basic.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#01.log", line 22, characters 1-1:
+> Error: public:26:stmt_fail_basic (in the log).
+>
+> Raised at file "src/parser.ml", line 178, characters 15-42
+> Called from file "src/parser.ml", line 135, characters 24-39
+> Called from file "src/evalUtils.ml", line 37, characters 15-38
+> Called from file "test/testUtils.ml", line 73, characters 10-23
+> Called from file "test/public.ml", line 144, characters 2-76
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:23:test_1.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#03.log", line 80, characters 1-1:
+> Error: public:23:test_1 (in the log).
+>
+> Raised at file "src/eval.ml", line 188, characters 12-15
+> Called from file "src/eval.ml", line 190, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 200, characters 18-34
+> Called from file "src/eval.ml", line 190, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "test/testUtils.ml", line 30, characters 34-53
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> File "src/eval.ml", line 187, characters 2-7: Pattern matching failed
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:19:for.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#04.log", line 13, characters 1-1:
+> Error: public:19:for (in the log).
+>
+> Raised at file "src/parser.ml", line 22, characters 18-209
+> Called from file "src/parser.ml", line 158, characters 19-50
+> Called from file "src/parser.ml", line 128, characters 23-38
+> Called from file "src/parser.ml", line 112, characters 24-39
+> Called from file "src/parser.ml", line 112, characters 24-39
+> Called from file "src/parser.ml", line 189, characters 20-35
+> Called from file "test/testUtils.ml", line 49, characters 14-29
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Expected Tok_Int_Type from input [Tok_To, Tok_Int(50), Tok_RParen, Tok_LBrace, Tok_ID(\"a\"), Tok_Assign, Tok_ID(\"a\"), Tok_Add, Tok_Int(1), Tok_Semi, Tok_ID(\"b\"), Tok_Assign, Tok_ID(\"b\"), Tok_Add, Tok_Int(1), Tok_Semi, Tok_RBrace, Tok_RBrace, EOF], got Tok_To")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:20:nested_ifelse.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#03.log", line 69, characters 1-1:
+> Error: public:20:nested_ifelse (in the log).
+>
+> Raised at file "src/eval.ml", line 188, characters 12-15
+> Called from file "src/eval.ml", line 190, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "test/testUtils.ml", line 30, characters 34-53
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> File "src/eval.ml", line 187, characters 2-7: Pattern matching failed
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:17:if_else_while.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#05.log", line 35, characters 1-1:
+> Error: public:17:if_else_while (in the log).
+>
+> Raised at file "src/eval.ml", line 188, characters 12-15
+> Called from file "src/eval.ml", line 190, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "test/testUtils.ml", line 30, characters 34-53
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> File "src/eval.ml", line 187, characters 2-7: Pattern matching failed
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:8:assign_2.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#01.log", line 8, characters 1-1:
+> Error: public:8:assign_2 (in the log).
+>
+> Raised at file "src/eval.ml", line 18, characters 18-41
+> Called from file "src/eval.ml", line 211, characters 26-41
+> Called from file "src/eval.ml", line 190, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "test/testUtils.ml", line 30, characters 34-53
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> P4b.Eval.DeclareError("No Var")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:18:while.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#03.log", line 54, characters 1-1:
+> Error: public:18:while (in the log).
+>
+> Raised at file "src/eval.ml", line 188, characters 12-15
+> Called from file "src/eval.ml", line 190, characters 14-30
+> Called from file "src/eval.ml", line 200, characters 18-34
+> Called from file "src/eval.ml", line 190, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "test/testUtils.ml", line 30, characters 34-53
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> File "src/eval.ml", line 187, characters 2-7: Pattern matching failed
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:3:stmt_basic.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#04.log", line 2, characters 1-1:
+> Error: public:3:stmt_basic (in the log).
+>
+> Raised at file "src/eval.ml", line 188, characters 12-15
+> Called from file "src/eval.ml", line 190, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "test/testUtils.ml", line 30, characters 34-53
+> Called from file "test/public.ml", line 87, characters 2-94
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> File "src/eval.ml", line 187, characters 2-7: Pattern matching failed
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:16:ifelse.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#03.log", line 43, characters 1-1:
+> Error: public:16:ifelse (in the log).
+>
+> Raised at file "src/eval.ml", line 188, characters 12-15
+> Called from file "src/eval.ml", line 190, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "test/testUtils.ml", line 30, characters 34-53
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> File "src/eval.ml", line 187, characters 2-7: Pattern matching failed
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:15:exp_3.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#05.log", line 24, characters 1-1:
+> Error: public:15:exp_3 (in the log).
+>
+> Raised at file "src/eval.ml", line 188, characters 12-15
+> Called from file "src/eval.ml", line 190, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "test/testUtils.ml", line 30, characters 34-53
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> File "src/eval.ml", line 187, characters 2-7: Pattern matching failed
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:14:exp_2.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#03.log", line 32, characters 1-1:
+> Error: public:14:exp_2 (in the log).
+>
+> Raised at file "src/eval.ml", line 188, characters 12-15
+> Called from file "src/eval.ml", line 190, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "test/testUtils.ml", line 30, characters 34-53
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> File "src/eval.ml", line 187, characters 2-7: Pattern matching failed
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:13:exp_1.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#05.log", line 13, characters 1-1:
+> Error: public:13:exp_1 (in the log).
+>
+> Raised at file "src/eval.ml", line 188, characters 12-15
+> Called from file "src/eval.ml", line 190, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "test/testUtils.ml", line 30, characters 34-53
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> File "src/eval.ml", line 187, characters 2-7: Pattern matching failed
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:12:less.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#03.log", line 21, characters 1-1:
+> Error: public:12:less (in the log).
+>
+> Raised at file "src/eval.ml", line 188, characters 12-15
+> Called from file "src/eval.ml", line 190, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "test/testUtils.ml", line 30, characters 34-53
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> File "src/eval.ml", line 187, characters 2-7: Pattern matching failed
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:4:stmt_control.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#05.log", line 2, characters 1-1:
+> Error: public:4:stmt_control (in the log).
+>
+> Raised at file "src/eval.ml", line 188, characters 12-15
+> Called from file "src/eval.ml", line 190, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "test/testUtils.ml", line 30, characters 34-53
+> Called from file "test/public.ml", line 94, characters 2-134
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> File "src/eval.ml", line 187, characters 2-7: Pattern matching failed
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:11:equal.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#03.log", line 10, characters 1-1:
+> Error: public:11:equal (in the log).
+>
+> Raised at file "src/eval.ml", line 188, characters 12-15
+> Called from file "src/eval.ml", line 190, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "src/eval.ml", line 191, characters 14-30
+> Called from file "test/testUtils.ml", line 30, characters 34-53
+> Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+>
+> File "src/eval.ml", line 187, characters 2-7: Pattern matching failed
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:2:expr_fail.
+>
+> File "/mnt/c/Users/ekami/Desktop/cmsc330spring20/project4b/_build/default/test/oUnit-public-LAPTOP-LFC59QR3#03.log", line 2, characters 1-1:
+> Error: public:2:expr_fail (in the log).
+>
+> File "test/public.ml", line 54, characters 1-1:
+> Error: public:2:expr_fail (in the code).
+>
+> Got P4b.Eval.DeclareError("No Var"), expected TypeError
+> ------------------------------------------------------------------------------
+> Ran: 28 tests in: 0.19 seconds.
+> FAILED: Cases: 28 Tried: 28 Errors: 20 Failures: 1 Skip:  0 Todo: 0 Timeouts: 0.
+[1]

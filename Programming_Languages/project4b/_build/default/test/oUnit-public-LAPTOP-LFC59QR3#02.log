@@ -1,0 +1,18 @@
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 I: Start test public:1:expr_ops.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 I: Test public:1:expr_ops is successful.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 I: End test public:1:expr_ops.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 I: Start test public:6:define_2.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 I: Test public:6:define_2 is successful.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 I: End test public:6:define_2.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 I: Start test public:10:notequal.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 E: Test public:10:notequal exited with an error.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 E: P4b.TokenTypes.InvalidInputException("Expected Tok_RParen from input [Tok_NotEqual, Tok_Int(100), Tok_RParen, Tok_LBrace, Tok_ID(\"a\"), Tok_Assign, Tok_Int(200), Tok_Semi, Tok_RBrace, Tok_Else, Tok_LBrace, Tok_Print, Tok_LParen, Tok_ID(\"a\"), Tok_RParen, Tok_Semi, Tok_RBrace, Tok_RBrace, EOF], got Tok_NotEqual") in test public:10:notequal.
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 E: Raised at file "src/parser.ml", line 22, characters 18-209
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 E: Called from file "src/parser.ml", line 140, characters 17-46
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 E: Called from file "src/parser.ml", line 128, characters 23-38
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 E: Called from file "src/parser.ml", line 112, characters 24-39
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 E: Called from file "src/parser.ml", line 189, characters 20-35
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 E: Called from file "test/testUtils.ml", line 49, characters 14-29
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 E: 
+2020-05-12T19:35:19+00:00 LAPTOP-LFC59QR3#02 I: End test public:10:notequal.

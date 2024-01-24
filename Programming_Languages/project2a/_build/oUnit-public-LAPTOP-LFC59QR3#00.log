@@ -1,0 +1,138 @@
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Runner: processes
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Chooser: simple
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Configuration suite_name = "public"
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Configuration cache_filename = "/home/ekamil/cmsc330spring20/project2a/_build/oUnit-$(suite_name).cache"
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Configuration display = "true"
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Configuration results_style_1_X = "false"
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Configuration verbose = "false"
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Configuration health_check_interval = "1."
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Configuration testdata_dir = "none"
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Configuration chooser = "simple"
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Configuration output_html_dir = "none"
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Configuration processes_kill_period = "5."
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Configuration runner = "processes"
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Configuration shards = "6"
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Configuration processes_grace_period = "5."
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Configuration log_encoding = "utf-8"
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Configuration output_junit_file = "none"
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Configuration output_file = "/home/ekamil/cmsc330spring20/project2a/_build/oUnit-$(suite_name)-$(shard_id).log"
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Using 6 workers maximum.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Starting worker number LAPTOP-LFC59QR3#01.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#01 started.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Starting worker number LAPTOP-LFC59QR3#02.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#02 started.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Starting worker number LAPTOP-LFC59QR3#03.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#03 started.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Starting worker number LAPTOP-LFC59QR3#04.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#04 started.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Starting worker number LAPTOP-LFC59QR3#05.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#05 started.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Starting worker number LAPTOP-LFC59QR3#06.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#06 started.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:5:factorial, public:4:equiv_frac, public:3:volume, public:2:area, public:1:abs, public:0:rev_tup.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#01 I: Start test public:0:rev_tup.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#02 I: Start test public:1:abs.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#03 I: Start test public:2:area.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#04 I: Start test public:3:volume.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#05 I: Start test public:4:equiv_frac.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:5:factorial, public:4:equiv_frac, public:3:volume, public:2:area, public:1:abs, public:0:rev_tup.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#01 W: Skip test public:0:rev_tup: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#02 W: Skip test public:1:abs: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#03 W: Skip test public:2:area: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#04 W: Skip test public:3:volume: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#05 E: Test public:4:equiv_frac has failed.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#05 E: equiv_frac (5)
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#05 E: not equal in test public:4:equiv_frac.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#05 E: Raised at file "src/oUnitAssert.ml", line 45, characters 2-27
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#05 E: Called from file "test/public.ml", line 34, characters 2-69
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#05 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#05 E: 
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:5:factorial, public:4:equiv_frac, public:3:volume, public:2:area, public:1:abs, public:0:rev_tup.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#01 I: End test public:0:rev_tup.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#02 I: End test public:1:abs.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#03 I: End test public:2:area.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#04 I: End test public:3:volume.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#05 I: End test public:4:equiv_frac.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:5:factorial, public:4:equiv_frac, public:3:volume, public:2:area, public:1:abs, public:0:rev_tup.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#06 I: Start test public:5:factorial.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:10:get, public:9:contains, public:8:len, public:7:tail, public:6:pow, public:5:factorial.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#06 W: Skip test public:5:factorial: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#05 I: Start test public:6:pow.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#04 I: Start test public:7:tail.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#03 I: Start test public:8:len.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#02 I: Start test public:9:contains.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:10:get, public:9:contains, public:8:len, public:7:tail, public:6:pow, public:5:factorial.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#06 I: End test public:5:factorial.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#05 W: Skip test public:6:pow: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#04 W: Skip test public:7:tail: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#03 W: Skip test public:8:len: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#02 W: Skip test public:9:contains: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#01 I: Start test public:10:get.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:10:get, public:9:contains, public:8:len, public:7:tail, public:6:pow, public:5:factorial.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#05 I: End test public:6:pow.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#04 I: End test public:7:tail.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#03 I: End test public:8:len.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#02 I: End test public:9:contains.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#01 W: Skip test public:10:get: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: 6 tests running: public:11:reverse, public:10:get, public:9:contains, public:8:len, public:7:tail, public:6:pow.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#01 I: End test public:10:get.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Still 3 tests running : public:12:combine, public:11:reverse, public:10:get.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: 3 tests running: public:12:combine, public:11:reverse, public:10:get.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#06 I: Start test public:11:reverse.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Still 2 tests running : public:12:combine, public:11:reverse.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: 2 tests running: public:12:combine, public:11:reverse.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#06 W: Skip test public:11:reverse: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#02 I: Start test public:12:combine.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Still 2 tests running : public:12:combine, public:11:reverse.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: 2 tests running: public:12:combine, public:11:reverse.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#06 I: End test public:11:reverse.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#02 W: Skip test public:12:combine: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Still 2 tests running : public:12:combine, public:11:reverse.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: 2 tests running: public:12:combine, public:11:reverse.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#02 I: End test public:12:combine.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Still 1 tests running : public:12:combine.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: 1 tests running: public:12:combine.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: 0 tests running: .
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#05 has ended.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#04 has ended.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#03 has ended.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#01 has ended.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#02 has ended.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: 0 tests running: .
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Worker LAPTOP-LFC59QR3#06 has ended.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Used 6 worker during test execution.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Run 2 tests with shard LAPTOP-LFC59QR3#01.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Run 2 tests with shard LAPTOP-LFC59QR3#05.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Run 2 tests with shard LAPTOP-LFC59QR3#03.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Run 2 tests with shard LAPTOP-LFC59QR3#04.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Run 3 tests with shard LAPTOP-LFC59QR3#02.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Run 2 tests with shard LAPTOP-LFC59QR3#06.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: ==============
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Summary:
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 W: Skip test public:12:combine: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 W: Skip test public:11:reverse: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 W: Skip test public:10:get: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 W: Skip test public:9:contains: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 W: Skip test public:8:len: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 W: Skip test public:7:tail: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 W: Skip test public:6:pow: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 W: Skip test public:5:factorial: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 E: Test public:4:equiv_frac has failed.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 E: equiv_frac (5)
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 E: not equal in test public:4:equiv_frac.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 E: Raised at file "src/oUnitAssert.ml", line 45, characters 2-27
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 E: Called from file "test/public.ml", line 34, characters 2-69
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 E: 
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 W: Skip test public:3:volume: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 W: Skip test public:2:area: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 W: Skip test public:1:abs: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 W: Skip test public:0:rev_tup: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Ran: 13 tests in: 0.13 seconds.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Cases: 13.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Tried: 13.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Errors: 0.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Failures: 1.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Skip: 12.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Todo: 0.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#00 I: Timeout: 0.

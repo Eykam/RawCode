@@ -1,0 +1,6 @@
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#03 I: Start test public:2:area.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#03 W: Skip test public:2:area: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#03 I: End test public:2:area.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#03 I: Start test public:8:len.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#03 W: Skip test public:8:len: Test disabled.
+2020-02-25T03:16:52+00:00 LAPTOP-LFC59QR3#03 I: End test public:8:len.

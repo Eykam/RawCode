@@ -1,0 +1,13 @@
+B /home/ekamil/.opam/4.07.0/lib/bytes
+B /home/ekamil/.opam/4.07.0/lib/oUnit
+B /home/ekamil/.opam/4.07.0/lib/ocaml
+B /home/ekamil/cmsc330spring20/project3/dep/sets
+B ../_build/default/src/.p3.objs
+B ../_build/default/test/.public.eobjs
+S /home/ekamil/.opam/4.07.0/lib/bytes
+S /home/ekamil/.opam/4.07.0/lib/oUnit
+S /home/ekamil/.opam/4.07.0/lib/ocaml
+S /home/ekamil/cmsc330spring20/project3/dep/sets
+S ../src
+S .
+FLG -w -40
