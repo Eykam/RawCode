@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">project3</string>
+    <string name="defaultInput">Enter a number 1–25</string>
+    <string name="shiftButtonLabel">SET SHIFT</string>
+    <string name="encryptButtonLabel">ENCRYPT</string>
+    <string name="backButtonLabel">GO BACK</string>
+    <string name="defaultResult">Result of encryption </string>
+
+</resources>

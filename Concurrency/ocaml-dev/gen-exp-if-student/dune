@@ -1,0 +1,9 @@
+(env
+ (dev
+  (flags (:standard -w -32 -w -33 -w -34 -w -27 -w -38 -w -39 -w -26))))
+
+(library
+ (name gen)
+ (wrapped false)
+ (modules gen adder)
+ (preprocess (pps ppx_deriving.show ppx_deriving.ord)))

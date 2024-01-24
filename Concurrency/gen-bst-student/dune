@@ -1,0 +1,7 @@
+(env
+ (dev
+  (flags (:standard -w -32 -w -33 -w -34 -w -27 -w -39))))
+
+(library
+ (name bst)
+ (wrapped false))

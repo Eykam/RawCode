@@ -1,0 +1,5 @@
+{
+    "name": "Ocaml Dev",
+    "image": "mzhu65536/arch-ocaml:4.14.0-dev",
+    "remoteUser": "ocaml"
+}

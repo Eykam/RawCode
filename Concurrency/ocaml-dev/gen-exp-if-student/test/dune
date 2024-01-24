@@ -1,0 +1,4 @@
+(tests
+ (names genTests)
+ (libraries gen oUnit)
+ (preprocess (pps ppx_deriving.show ppx_deriving.ord)))

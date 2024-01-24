@@ -1,0 +1,4 @@
+(tests
+ (names genTests)
+ (libraries bst oUnit)
+)
