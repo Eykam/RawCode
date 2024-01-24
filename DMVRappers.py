@@ -11,10 +11,10 @@ INSTALL DEPENDENCIES
 FUNCTION CALLS ARE AT BOTTOM, COMMENT OUT THE ONES YOU ARE NOT USING
 """
 
-consumerKey = "YE3LbGMVE6yfGn3xWei5KVgS4"
-consumerSecret = "LPhQVPNc42mtWItjoMh90ap5tvQErnFPAtfC2EMTH2ZbcaksRQ"
-accessKey = "2875255666-JSjDyzjvZYSSba8cYEGbOo9QZBLoS65HdgpydC5"
-accessSecret = "ezXvMEIviCXcUzHdkIyWPW6Suoim3PNGJBw7IlKTdxCTG"
+consumerKey = ""
+consumerSecret = ""
+accessKey = ""
+accessSecret = ""
 
 auth = tweepy.OAuthHandler(consumer_key= consumerKey, consumer_secret=consumerSecret)
 auth.set_access_token(accessKey, accessSecret)
