@@ -7,10 +7,10 @@ import math
 import re
 
 
-consumerKey = "YE3LbGMVE6yfGn3xWei5KVgS4"
-consumerSecret = "LPhQVPNc42mtWItjoMh90ap5tvQErnFPAtfC2EMTH2ZbcaksRQ"
-accessKey = "2875255666-JSjDyzjvZYSSba8cYEGbOo9QZBLoS65HdgpydC5"
-accessSecret = "ezXvMEIviCXcUzHdkIyWPW6Suoim3PNGJBw7IlKTdxCTG"
+consumerKey = ""
+consumerSecret = ""
+accessKey = ""
+accessSecret = ""
 
 def percentage(number,total):
     return float(number)/float(total)
